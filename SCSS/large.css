@@ -16,13 +16,13 @@
   body .imagediv .summary {
     position: relative;
   }
-  body .imagediv h1 {
+  body h1 {
     font-family: "Italianno", cursive;
     font-size: 4em;
     margin: 0 0 0 0.5em;
     color: #2B2B2B;
   }
-  body .imagediv h2 {
+  body h2 {
     font-family: "Italianno", cursive;
     font-size: 3em;
     margin: 0 0 0 3em;
