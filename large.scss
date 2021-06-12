@@ -1,0 +1,112 @@
+
+
+
+$italianno:'Italianno', cursive;
+$paragraph:'Playfair Display', serif;
+$ivory:#FBFBEC;
+$pink:#F4B3C2;
+$brown:#2B2B2B;
+$green:#47885E;
+$white: #fff;
+
+@media  only screen and (min-width:10em) {
+
+body{
+    background-color: $ivory;
+    margin: 0 auto;
+
+.imagediv{
+    position:relative;
+    height:20em;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 2em;
+
+.banner{
+    position: absolute;
+}
+.summary{
+    
+    position:relative;
+    
+}
+h1{
+    font-family: $italianno;
+    font-size: 4em;
+    margin: 0 0 0 0.5em;
+    color: $brown;
+}
+h2{
+    font-family:$italianno;
+    font-size: 3em;
+    margin: 0 0 0 3em;
+    color: $brown;
+}
+}
+
+h3{
+    font-family: $italianno;
+    font-size: 2em;
+}
+aside h3{
+    color: $green;
+}
+p{
+    font-family: $paragraph;
+    font-size: 1em;
+    margin-left: 1.5%;
+}
+
+
+
+#zen-preamble{
+    width:70%;
+    margin: 0 auto;
+    border-top: solid 2px $green;
+    border-bottom: solid 2px $green;
+    padding:1em;
+}
+.main{
+    max-width: 65%;
+    padding-left: 2%;
+}
+aside{
+    background-color: $pink;
+    padding:0.5em;
+    position: absolute;
+    top:750px;
+    right:1em;
+    width: 27%;
+
+.wrapper ul{
+   list-style: none;
+   font-family: $paragraph;
+   font-size: 1.2em;
+   color:  $ivory;
+ a{
+    text-decoration: none;
+    color:  $ivory;
+}
+ a:hover{
+    text-shadow: 2px 5px 5px   $ivory;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: $green;
+}
+}
+}
+
+footer{
+    display: flex;
+    background-color: $brown;
+    height: 15em;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+a {
+    padding: 10px 10px 10px 10px;
+    color:  $ivory;
+}
+
+}}
+}
